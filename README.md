@@ -1,1 +1,1 @@
-fitfreak24exe.netlify.app
+https://fitfreak24exe.netlify.app/
