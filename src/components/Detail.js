@@ -30,7 +30,7 @@ const Detail = ({ exerciseDetail }) => {
         <Typography sx={{ fontSize: { lg: '64px', xs: '30px' } }} fontWeight={700} textTransform="capitalize">
           {name}
         </Typography>
-        <Typography sx={{ fontSize: { lg: '24px', xs: '18px' } }} color="#eee">
+        <Typography sx={{ fontSize: { lg: '24px', xs: '18px' } }} color="#3A4350">
           Working out effect your body Ways that are Phenomenal. by instance, the {' '}
           <span style={{ textTransform: 'capitalize' }}>{name}</span> bup is one
           of the best exercises to target your {target}. It will help you improve your{' '}
@@ -38,8 +38,8 @@ const Detail = ({ exerciseDetail }) => {
         </Typography>
       {extraDetail?.map((item) => (
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">
-            <Button sx={{ background: '#FBB401', borderRadius: '50%', width: '100px', height: '100px' }}>
-              <img src={item.icon} alt={bodyPart} style={{ width: '50px', height: '50px' }} />
+            <Button sx={{ background: '#eee', borderRadius: '50%', width: '100px', height: '100px' }}>
+              <img src={item.icon} alt={bodyPart} style={{ width: '53px', height: '101px' }} />
             </Button>
             <Typography textTransform="capitalize" sx={{ fontSize: { lg: '30px', xs: '20px' } }}>
               {item.name}

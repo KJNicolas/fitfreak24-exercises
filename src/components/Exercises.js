@@ -59,8 +59,8 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       <Stack mt="100px" alignItems="center">
         {exercises.length > 9 && (
           <Pagination
-            color="primary" 
-            shape="rounded"
+            color= "secondary"
+            shape="outlinedSecondary"
             defaultPage={1}
             count={Math.ceil(exercises.length / exercisesPerPage)}
             page={currentPage}

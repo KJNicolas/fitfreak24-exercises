@@ -1,14 +1,7 @@
 body {
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(114,123,131,1) 52%, rgba(134,134,134,1) 100%);
-
   font-family: "Josefin Sans";
-  //background: linear-gradient(
-    90deg,
-    rgba(230, 230, 230, 1) 0%,
-    rgba(160, 179, 198, 1) 52%,
-    rgba(179, 191, 203, 1) 100%
-  );
-  color: #fff;
+  background: #E6BF9D;
+  color: #310066;
 }
 
 * {
@@ -30,18 +23,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ff2625;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
   bottom: -20px;
-  right: 80px;
+  right: 120px;
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 }
 
 .right-arrow {
-  right: 140px;
+  right: 1280px;
 }
 
 .right-arrow:hover,
@@ -63,17 +55,16 @@ body {
 .hero-banner-img {
   position: absolute;
   right: 40px;
-  top: 0px;
-  width: 700px;
-  height: 900px;
-  margin-top: -330px;
+  top: 10px;
+  width: 685px;
+  height: 382px;
+  margin-top: -100px;
 }
 
 .exercise-card {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 1px solid #ff2625;
   border-radius: 10px;
   text-decoration: none;
   display: flex;
@@ -99,8 +90,11 @@ body {
 }
 
 .search-btn:hover {
-  color: #ff2625 !important;
-  border: 1px solid #ff2625 !important;
+  background-color: #F1767F!important;
+}
+
+.search {
+  decoration: none;
 }
 
 .exercise-video {
